@@ -42,7 +42,7 @@ It looks like it did a fair bit of damage. In the output file, it is apparent th
 <br />
 ![out](https://user-images.githubusercontent.com/14042582/35190381-aef50c88-fe25-11e7-9461-12d47d7d355d.png)
 <br />
-As the size of the blur kernel increases, the blur becomes more intense and cross correlation begins to fall apart altogether. At that point, it is likely that the problem has shifted from the domain of cross correlation- a simple yet effective technique - to something like convolutional neural networks, which prove more effective for extreme image distortions.
+As the size of the blur kernel increases, the blur becomes more intense and cross correlation begins to fall apart altogether. At that point, it is likely that the problem has shifted from the domain of cross correlation- a simple yet effective technique applicable only in certain domains - to something like convolutional neural networks, which prove more effective for extreme image distortions.
 
 <br />
 I hope you enjoyed reading this writeup, now you can clone this repository and find pikachu for yourself!
