@@ -273,8 +273,7 @@ def drawBoundingBox(kernel, image, maxcoords):
                     image[maxcoords[current_max][0]+x][maxcoords[current_max][1]+(kernelWidth-1)] = [0,0,0,255]
 
         except IndexError:
-            print("The bounding box is out of bounds. This likely means that the template represented by the max does not exist entirely within the image
-            \nor there is something wrong with the correlation algorithm being used.")
+            print("The bounding box is out of bounds. This likely means that the template represented by the max does not exist entirely within the image \n or there is something wrong with the correlation algorithm being used.")
     return image
 
 
